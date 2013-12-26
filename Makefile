@@ -33,13 +33,13 @@ DDEFS = -DSTM32F0XX -DUSE_STDPERIPH_DRIVER
 PROJECT        = iotogglem0_wspl
  
 # List C source files here
-LIBSDIRS    = ../../STM32F0-Discovery_FW_V1.0.0/Libraries
+LIBSDIRS    = ../../STM32F0308-Discovery_FW_V1.0.1/Libraries
 CORELIBDIR = $(LIBSDIRS)/CMSIS/Include
-DEVDIR  = $(LIBSDIRS)/CMSIS/ST/STM32F0xx
+DEVDIR  = $(LIBSDIRS)/CMSIS/Device/ST/STM32F0xx
 STMSPDDIR    = $(LIBSDIRS)/STM32F0xx_StdPeriph_Driver
 STMSPSRCDDIR = $(STMSPDDIR)/src
 STMSPINCDDIR = $(STMSPDDIR)/inc
-DISCOVERY    = ../../STM32F0-Discovery_FW_V1.0.0/Utilities/STM32F0-Discovery
+DISCOVERY    = ../../STM32F0308-Discovery_FW_V1.0.1/Utilities/STM32F0308-Discovery
 
 #list of src files to include in build process
 
